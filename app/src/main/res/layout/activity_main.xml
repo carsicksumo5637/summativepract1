@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splashLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:backgroundTint="@color/beige">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/in__1_" />
+
+    <TextView
+        android:id="@+id/studentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEAR ART THROUGH SOUND"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="goToMain"
+        android:text="Start"
+        android:backgroundTint="#EF5350"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:onClick="exitApp"
+        android:text="Exit"
+        android:backgroundTint="#EF5350"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
